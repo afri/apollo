@@ -163,7 +163,7 @@ GEN_LBL_STMT(lbl, stmt, pctx)
 GEN_FUN_DECL(fname, pars, body, pctx)
 GEN_VAR_DECL(decls, pctx)
   decls = array of decl
-  decl = [name, optional initializer]
+  decl = [lhs_exp, optional initializer]
 GEN_IF(test, consequent, alternative, pctx)
 GEN_DO_WHILE(body, test, pctx)
 GEN_WHILE(test, body, pctx)
